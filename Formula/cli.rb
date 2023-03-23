@@ -6,6 +6,6 @@ class Cli < Formula
   version "0.2.0"
 
   def install
-    bin.install "cli"
+    bin.install "smb"
   end
 end
