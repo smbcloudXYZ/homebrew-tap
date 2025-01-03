@@ -1,3 +1,3 @@
 # homebrew-tap
 
-Homebrew formulas for SmbPndk.
+Homebrew formulas for [smbCloud](https://www.smbcloud.xyz/).
