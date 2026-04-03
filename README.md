@@ -1,33 +1,51 @@
-# Homebrew Tap for smbCloud CLI
+<!-- LOGO -->
+<h1>
+<p align="center">
+  <img src="https://avatars.githubusercontent.com/u/89791739?s=200&v=4" alt="smbCloud Logo" width="128">
+  <br>smbCloud Homebrew Tap
+</h1>
+  <p align="center">
+    <br />
+    <a href="https://smbcloud.xyz">Website</a>
+    ·
+    <a href="https://github.com/smbcloudXYZ/smbcloud-cli">smbCloud CLI</a>
+    ·
+    <a href="https://docs.smbcloud.xyz">Documentation</a>
+  </p>
+</p>
 
-The official [Homebrew](https://brew.sh) tap for [**smbCloud**](https://www.smbcloud.xyz/) — the modern cloud deployment platform for Rust, Node.js, Ruby, and Swift apps.
+## About
 
-## Install
+This is the official [Homebrew](https://brew.sh/) tap for the **smbcloud-cli**—the modern, robust command-line interface for [smbcloud.xyz](https://smbcloud.xyz/). Deploy your Rust, Node.js, Ruby, or Swift applications to the cloud with a single command: `smb`.
 
-```sh
-brew tap smbcloudXYZ/homebrew-tap
+## Installation
+
+To install the `smb` CLI via Homebrew, run:
+
+```bash
+brew tap smbcloudXYZ/tap
 brew install cli
 ```
 
-## Upgrade
+Once installed, you can verify it's working:
 
-```sh
-brew upgrade cli
-```
-
-## Verify
-
-```sh
+```bash
+smb --version
 smb --help
 ```
 
-## Links
+## Upgrading
 
-- [smbCloud Platform](https://www.smbcloud.xyz/)
-- [CLI Documentation](https://github.com/smbcloudXYZ/smbcloud-cli/tree/main/docs)
-- [CLI Source (GitHub)](https://github.com/smbcloudXYZ/smbcloud-cli)
-- [Contributing](https://github.com/smbcloudXYZ/smbcloud-cli/blob/main/CONTRIBUTING.md)
+When a new version is released, upgrade easily:
+
+```bash
+brew upgrade cli
+```
+
+## Contributing & Issues
+
+If you encounter an issue with the CLI itself, please report it on the main [smbcloud-cli repository](https://github.com/smbcloudXYZ/smbcloud-cli/issues).
 
 ## License
 
-[Apache-2.0](https://github.com/smbcloudXYZ/smbcloud-cli/blob/main/LICENSE)
+MIT
