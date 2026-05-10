@@ -10,11 +10,11 @@ class Cli < Formula
   on_macos do
     on_arm do
       url 'https://github.com/smbcloudXYZ/smbcloud-cli/releases/download/v0.4.0/smb-macos-arm64.tar.gz'
-      sha256 'be574f753ef10201ba15cb839bc27826c934b6e34293b956b3d456b887c850d1'
+      sha256 'f7be7063306c0bf97e530330d33aa0cb7f42e16784f8385afe44cc7d47e6d555'
     end
     on_intel do
       url 'https://github.com/smbcloudXYZ/smbcloud-cli/releases/download/v0.4.0/smb-macos-amd64.tar.gz'
-      sha256 '8a667ae66397464a8da6aa19629829a932dec2894cf616ae37813585578c8cfa'
+      sha256 '753d54a542f4228bd5c363d65958eadb5a8eb83ecbbba3cdd5babf881aae46b3'
     end
   end
 
