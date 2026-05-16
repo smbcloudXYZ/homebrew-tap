@@ -4,17 +4,17 @@
 class Cli < Formula
   desc 'smbCloud command line interface'
   homepage 'https://github.com/smbcloudXYZ/smbcloud-cli'
-  version '0.4.0'
+  version '0.4.1'
   license 'Apache-2.0'
 
   on_macos do
     on_arm do
-      url 'https://github.com/smbcloudXYZ/smbcloud-cli/releases/download/v0.4.0/smb-macos-arm64.tar.gz'
-      sha256 'fc5fc0d495e625c3683dd211ebbd6ec5d4fc8f3822ca063e2ebc03d653ed8f43'
+      url 'https://github.com/smbcloudXYZ/smbcloud-cli/releases/download/v0.4.1/smb-macos-arm64.tar.gz'
+      sha256 '23c93ce7c19c3bb7cc49d31bb77f852a165325a0bb8b63938a537f40ce377445'
     end
     on_intel do
-      url 'https://github.com/smbcloudXYZ/smbcloud-cli/releases/download/v0.4.0/smb-macos-amd64.tar.gz'
-      sha256 '58d114f3a0cd8536126f33dc154cae547ba890113ffc01a93107d7dde3c72601'
+      url 'https://github.com/smbcloudXYZ/smbcloud-cli/releases/download/v0.4.1/smb-macos-amd64.tar.gz'
+      sha256 'b713204379644467173e3eb5095cc3359412987300606805c8d6399b543fcc26'
     end
   end
 
