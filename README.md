@@ -12,7 +12,7 @@
     ·
     <a href="https://github.com/smbcloudXYZ/smbcloud-cli">smbCloud CLI</a>
     ·
-    <a href="https://docs.smbcloud.xyz/cli">Documentation</a>
+    <a href="https://docs.smbcloud.xyz/developer/cli">Documentation</a>
     ·
     <a href="https://github.com/smbcloudXYZ/smbcloud-cli/issues">Issues</a>
   </p>
@@ -34,7 +34,7 @@ This is the official [Homebrew](https://brew.sh/) tap for the **smbcloud-cli**�
 To install the `smb` CLI via Homebrew, run:
 
 ```bash
-brew tap smbcloudXYZ/tap
+brew tap smbcloudXYZ/tap && brew trust --tap smbcloudXYZ/tap
 brew install cli
 ```
 
