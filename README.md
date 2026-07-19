@@ -60,3 +60,7 @@ If you encounter an issue with the CLI itself, please report it on the main [smb
 ## License
 
 [Apache-2.0](https://github.com/smbcloudXYZ/smbcloud-cli/blob/main/LICENSE)
+
+## Copyright
+
+© 2026 [Splitfire AB](https://5mb.app) ([smbCloud](https://smbcloud.xyz)).
