@@ -5,7 +5,7 @@
   <br>smbCloud Homebrew Tap
 </h1>
   <p align="center">
-    Deploy to the cloud in one command.
+    smbCloud Deploy, Auth, Mail, and GresIQ interface from the terminal.
     <br />
     <br />
     <a href="https://smbcloud.xyz/">Website</a>
