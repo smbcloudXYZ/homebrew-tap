@@ -28,7 +28,7 @@
 | --- | --- | --- |
 | `cli` | `smb` | smbCloud CLI: Deploy, Auth, Mail, GresIQ |
 | `ascapi` | `asc` | App Store Connect, Google Play, Microsoft Store and AppGallery CLI and MCP server |
-| `proses` | `proses` | Already in the tap |
+| `proses` | `proses` | Process manager: start, supervise, restart and log an app from one command |
 
 ## Install
 
@@ -36,6 +36,7 @@
 brew tap smbcloudXYZ/tap && brew trust --tap smbcloudXYZ/tap
 brew install cli
 brew install ascapi
+brew install proses
 ```
 
 ## Upgrade
@@ -47,8 +48,9 @@ brew upgrade <formula>
 ## Issues
 
 Report problems in each tool's own repository:
-[smbcloud-cli](https://github.com/smbcloudXYZ/smbcloud-cli/issues) and
-[smbcloud-ascapi](https://github.com/smbcloudXYZ/smbcloud-ascapi/issues).
+[smbcloud-cli](https://github.com/smbcloudXYZ/smbcloud-cli/issues),
+[smbcloud-ascapi](https://github.com/smbcloudXYZ/smbcloud-ascapi/issues) and
+[proses](https://github.com/smbcloudXYZ/proses/issues).
 
 ## License
 
