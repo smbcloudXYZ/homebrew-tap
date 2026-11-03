@@ -5,62 +5,57 @@
   <br>smbCloud Homebrew Tap
 </h1>
   <p align="center">
-    smbCloud Deploy, Auth, Mail, and GresIQ interface from the terminal.
+    smbCloud's devtools from the terminal.
     <br />
     <br />
     <a href="https://smbcloud.xyz/">Website</a>
     ·
     <a href="https://github.com/smbcloudXYZ/smbcloud-cli">smbCloud CLI</a>
     ·
-    <a href="https://docs.smbcloud.xyz/developer/cli">Documentation</a>
+    <a href="https://github.com/smbcloudXYZ/smbcloud-ascapi">smbcloud-ascapi</a>
     ·
-    <a href="https://github.com/smbcloudXYZ/smbcloud-cli/issues">Issues</a>
+    <a href="https://docs.smbcloud.xyz/developer/cli">Documentation</a>
   </p>
   <p align="center">
-    <a href="https://crates.io/crates/smbcloud-cli"><img alt="Crates.io" src="https://img.shields.io/crates/v/smbcloud-cli"></a>
-    <a href="https://www.npmjs.com/package/@smbcloud/cli"><img alt="npm" src="https://img.shields.io/npm/v/@smbcloud/cli"></a>
     <a href="https://github.com/smbcloudXYZ/homebrew-tap"><img alt="Homebrew" src="https://img.shields.io/badge/homebrew-tap-orange?logo=homebrew"></a>
-    <a href="https://pypi.org/project/smbcloud-cli/"><img alt="PyPI" src="https://img.shields.io/pypi/v/smbcloud-cli"></a>
-    <a href="https://github.com/smbcloudXYZ/smbcloud-cli/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/smbcloudXYZ/smbcloud-cli"></a>
+    <a href="https://github.com/smbcloudXYZ/homebrew-tap/blob/main/LICENSE"><img alt="License" src="https://img.shields.io/github/license/smbcloudXYZ/homebrew-tap"></a>
   </p>
 </p>
 
-## About
+## Formulae
 
-This is the official [Homebrew](https://brew.sh/) tap for the **smbcloud-cli**—the modern, robust command-line interface for [smbcloud.xyz](https://smbcloud.xyz/). Deploy your Rust, Node.js, Ruby, or Swift applications to the cloud with a single command: `smb`.
+| Formula | Binary | What it is |
+| --- | --- | --- |
+| `cli` | `smb` | smbCloud CLI: Deploy, Auth, Mail, GresIQ |
+| `ascapi` | `asc` | App Store Connect, Google Play, Microsoft Store and AppGallery CLI and MCP server |
+| `proses` | `proses` | Process manager: start, supervise, restart and log an app from one command |
 
-## Installation
-
-To install the `smb` CLI via Homebrew, run:
+## Install
 
 ```bash
 brew tap smbcloudXYZ/tap && brew trust --tap smbcloudXYZ/tap
 brew install cli
+brew install ascapi
+brew install proses
 ```
 
-Once installed, you can verify it's working:
+## Upgrade
 
 ```bash
-smb --version
-smb --help
+brew upgrade <formula>
 ```
 
-## Upgrading
+## Issues
 
-When a new version is released, upgrade easily:
-
-```bash
-brew upgrade cli
-```
-
-## Contributing & Issues
-
-If you encounter an issue with the CLI itself, please report it on the main [smbcloud-cli repository](https://github.com/smbcloudXYZ/smbcloud-cli/issues).
+Report problems in each tool's own repository:
+[smbcloud-cli](https://github.com/smbcloudXYZ/smbcloud-cli/issues),
+[smbcloud-ascapi](https://github.com/smbcloudXYZ/smbcloud-ascapi/issues) and
+[proses](https://github.com/smbcloudXYZ/proses/issues).
 
 ## License
 
-[Apache-2.0](https://github.com/smbcloudXYZ/smbcloud-cli/blob/main/LICENSE)
+Each formula declares its own license: Apache-2.0 for `cli` and `ascapi`, MIT for `proses`.
 
 ## Copyright
 
-© 2026 [Splitfire AB](https://5mb.app) ([smbCloud](https://smbcloud.xyz)).
+© 2026 Seto Elkahfi ([smbCloud](https://smbcloud.xyz)). Distributed by [Splitfire AB](https://5mb.app).
